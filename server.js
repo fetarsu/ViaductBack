@@ -5,7 +5,7 @@ var mobileApp = require('azure-mobile-apps')(); // Create an instance of a Mobil
 mobileApp.tables.add('User');
 mobileApp.tables.add('Deliverer');
 mobileApp.tables.add('Employee');
-mobileApp.tables.add('Operations');
+mobileApp.tables.add('Operation');
 mobileApp.tables.add('Report'); // Create a table for 'User' with default settings
 
 app.use(mobileApp);
