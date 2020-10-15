@@ -9,5 +9,8 @@ mobileApp.tables.add('Operation');
 mobileApp.tables.add('Report'); // Create a table for 'User' with default settings
 mobileApp.tables.add('Adress');
 mobileApp.tables.add('Supply');
+mobileApp.tables.add('Configuration');
+mobileApp.tables.add('Platform');
+mobileApp.tables.add('PizzasAndOthers');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
