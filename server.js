@@ -12,5 +12,6 @@ mobileApp.tables.add('Supply');
 mobileApp.tables.add('Configuration');
 mobileApp.tables.add('Platform');
 mobileApp.tables.add('PizzasAndOthers');
+mobileApp.tables.add('OverdueCash');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
